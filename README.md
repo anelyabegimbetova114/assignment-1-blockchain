@@ -20,15 +20,21 @@ Compile and Deploy: Switch to the "Solidity Compiler" tab and compile the contra
   
 This ERC-20 token contract offers the following functions:
 
+
 transfer: Transfers tokens from the sender's account to a specified recipient.
+
 
 approve: Allows a spender to withdraw tokens from the sender's account, up to the approved amount.
 
+
 transferFrom: Transfers tokens from one address to another, with the approval of the token owner.
+
 
 getLatestTransactionTimestamp: Returns the block timestamp of the latest transaction in a human-readable format.
 
+
 getTransactionSender: Returns the address of the transaction sender.
+
 
 getTransactionReceiver: Returns the address of the transaction receiver.
 
@@ -37,6 +43,7 @@ getTransactionReceiver: Returns the address of the transaction receiver.
 -Examples
 
 Below are examples illustrating the usage of some functions:
+
 
 Example: Transfer Tokens Use the transfer function to send tokens to another address.
 
