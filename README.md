@@ -39,6 +39,8 @@ getTransactionSender: Returns the address of the transaction sender.
 getTransactionReceiver: Returns the address of the transaction receiver.
 
 -Demo screenshots  
+![Screen Shot 2024-01-04 at 18 04 38](https://github.com/anelyabegimbetova114/assignment-1-blockchain/assets/124655758/3567cf29-926c-4521-bbe1-ffbe8d0f5856)
+![Screen Shot 2024-01-04 at 18 06 09](https://github.com/anelyabegimbetova114/assignment-1-blockchain/assets/124655758/955f35df-de8a-4c40-b990-fd4876c11118)
 
 -Examples
 
