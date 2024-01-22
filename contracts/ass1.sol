@@ -21,12 +21,12 @@ contract AstanaITU_AnelyaToken is ERC20 {
         return address(this);
     }
 
-    function transfer(address to, uint256 value) external returns (bool) {
-        require(to != address(0), "ERC20: Transfer to the zero address");
-        require(value <= balanceOf(msg.sender), "ERC20: Insufficient balance");
+function transfer(address to, uint256 value) public override returns (bool) {
+    require(to != address(0), "ERC20: Transfer to the zero address");
+    require(value <= balanceOf(msg.sender), "ERC20: Insufficient balance");
 
-        _transfer(msg.sender, to, value);
+    _transfer(msg.sender, to, value);
 
-        return true;
+    return true;
     }
 }
